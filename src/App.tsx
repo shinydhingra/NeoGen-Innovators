@@ -12,14 +12,7 @@ function App() {
       image: "https://i.postimg.cc/Z93PwSTt/b82eed34.jpg"
 
     },
-    {
-      name: "Badal Panwar",
-      role: "Resources Manager",
-      email: "badalpanwar6325@gmail.com",
-      linkedin : "https://www.linkedin.com/in/badal-617143366",
-      location: "Samalkha, India",
-      image: "https://i.postimg.cc/SX5LrK0G/639f099f.jpg"
-    },
+   
     {
       name: "Nevid Alam",
       role: "Technical Expert",
@@ -46,6 +39,14 @@ function App() {
       image: "https://i.postimg.cc/K4n5vnp1/501f256d.jpg"
     },
     {
+      name: "Anuj Saini",
+      role: "Resources Manager",
+      email: "anujsaini00110@gmail.com",
+      linkedin: "https://www.linkedin.com/in/anuj-saini-46516b317/",
+      location: "Panipat , India",
+      image: "https://i.postimg.cc/fynqN4kv/dksjfkj.png"
+    },
+     {
       name: "Utsav Kumar",
       role: "Quality Manager",
       email: "utsavmuz1212@gmail.com",
@@ -286,7 +287,7 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
                 {/* Display role for all team members */}
                 <p className="text-lg text-blue-600 font-medium mb-4">{member.role}</p>
                 
-       {/* Contact details for Badal Panwar*/}
+       {/* Contact details for Mohd Zaid Ansari*/}
 {member.name === "Mohammad Zaid Ansari" && (
   <div className="space-y-3">
     <div className="flex items-center justify-center gap-2">
@@ -328,46 +329,7 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
 )}
 
  
-{/* Contact details for Badal Panwar*/}
-{member.name === "Badal Panwar" && (
-  <div className="space-y-3">
-    <div className="flex items-center justify-center gap-2">
-      <Mail className="w-4 h-4 text-blue-600" />
-      <a
-        href={`mailto:${member.email}`}
-        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
-      >
-        {member.email}
-      </a>
-    </div>
-    <div className="flex items-center justify-center gap-2">
-      <Linkedin className="w-4 h-4 text-blue-600" />
-      <a
-        href={member.linkedin}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
-      >
-        Badal Panwar
-      </a>
-    </div>
-    <div className="flex items-center justify-center gap-2">
-      <Github className="w-4 h-4 text-blue-600" />
-      <a
-        href="https://github.com/Badal-06"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
-      >
-        Badal-06
-      </a>
-    </div>
-    <div className="flex items-center justify-center gap-2">
-      <MapPin className="w-4 h-4 text-blue-600" />
-      <span className="text-sm text-gray-600">{member.location}</span>
-    </div>
-  </div>
-)}
+
 
              {/* Contact details for Nevid Alam */}
 {member.name === "Nevid Alam" && (
@@ -524,6 +486,47 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
         className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
       >
        utsavkr12
+      </a>
+    </div>
+    <div className="flex items-center justify-center gap-2">
+      <MapPin className="w-4 h-4 text-blue-600" />
+      <span className="text-sm text-gray-600">{member.location}</span>
+    </div>
+  </div>
+)}
+
+                 {/* Contact details for Badal Panwar*/}
+{member.name === "Anuj Saini" && (
+  <div className="space-y-3">
+    <div className="flex items-center justify-center gap-2">
+      <Mail className="w-4 h-4 text-blue-600" />
+      <a
+        href={`mailto:${member.email}`}
+        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+      >
+        {member.email}
+      </a>
+    </div>
+    <div className="flex items-center justify-center gap-2">
+      <Linkedin className="w-4 h-4 text-blue-600" />
+      <a
+        href={member.linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+      >
+        Anuj Saini
+      </a>
+    </div>
+    <div className="flex items-center justify-center gap-2">
+      <Github className="w-4 h-4 text-blue-600" />
+      <a
+        href="https://github.com/sainiking-sa"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+      >
+        sainiking-sa
       </a>
     </div>
     <div className="flex items-center justify-center gap-2">
