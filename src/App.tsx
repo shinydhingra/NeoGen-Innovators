@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Users, Target, Award, Code, Palette, Database, Smartphone, Globe, BarChart3, Linkedin, Instagram, Github } from 'lucide-react';
+import { Mail, Phone, MapPin, Users, Target, Award, Code, Palette, Database, Smartphone, Globe, BarChart3, Linkedin, Instagram, Github, Youtube } from 'lucide-react';
 
 function App() {
   const teamMembers = [
@@ -19,7 +19,7 @@ function App() {
       email: "mdnabid786@gmail.com",
       linkedin: "linkedin.com/in/nevid-alam-293b04328",
       location: "Panipat , India",
-      image: "https://i.postimg.cc/Vkcjc700/Whats-App-Image-2025-09-01-at-1-06-51-PM.jpg"
+      image: "https://i.postimg.cc/qvX7ckD3/Screenshot-2025-10-17-125456.png"
     },
     {
      name: "Mohammad Zaid Ansari",
@@ -144,6 +144,17 @@ function App() {
                   <p className="text-sm text-blue-100">Instagram</p>
                   <a href="https://www.instagram.com/neogen.innovators/" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-blue-200 transition-colors">
                     @neogen.innovators
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-white bg-opacity-20 rounded-lg flex items-center justify-center backdrop-blur-sm">
+                  <Youtube className="w-5 h-5" />
+                </div>
+                <div>
+                  <p className="text-sm text-blue-100">YouTube</p>
+                  <a href="https://www.youtube.com/@NeogenInnovators" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-blue-200 transition-colors">
+                    @NeogenInnovators
                   </a>
                 </div>
               </div>
