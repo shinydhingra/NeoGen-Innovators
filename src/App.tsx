@@ -59,7 +59,7 @@ function App() {
       email: "mukulq4@gmail.com",
       Linkedin:"https://www.linkedin.com/in/mukul-mukul-19a426362",
       location: "Panipat , India",
-      image: "https://i.postimg.cc/x8m4MFyG/image.jpg"
+      image: "https://i.postimg.cc/HWhm5VXQ/image.jpg"
     }
   ];
 
