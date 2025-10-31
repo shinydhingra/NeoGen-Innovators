@@ -12,7 +12,6 @@ function App() {
       image: "https://i.postimg.cc/Z93PwSTt/b82eed34.jpg"
 
     },
-   
     {
       name: "Nevid Alam",
       role: "Technical Expert",
@@ -53,6 +52,14 @@ function App() {
       linkedin: "linkedin.com/in/utsav-kumar-6a2129336",
       location: "Chhpra , Bihar",
       image: "https://i.postimg.cc/ZCF4ss8j/dab94179.jpg"
+    },
+    {
+      name: "Mukul",
+      role: "Student Coordinator",
+      email: "mukulq4@gmail.com",
+      Linkedin:"https://www.linkedin.com/in/mukul-mukul-19a426362",
+      location: "Panipat , India",
+      image: "https://i.postimg.cc/x8m4MFyG/image.jpg"
     }
   ];
 
@@ -506,7 +513,7 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
   </div>
 )}
 
-                 {/* Contact details for Badal Panwar*/}
+                 {/* Contact details for Anuj Saini*/}
 {member.name === "Anuj Saini" && (
   <div className="space-y-3">
     <div className="flex items-center justify-center gap-2">
@@ -538,6 +545,46 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
         className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
       >
         sainiking-sa
+      </a>
+    </div>
+    <div className="flex items-center justify-center gap-2">
+      <MapPin className="w-4 h-4 text-blue-600" />
+      <span className="text-sm text-gray-600">{member.location}</span>
+    </div>
+  </div>
+)}
+                {/* Contact details for Mukul */}
+{member.name === "Mukul" && (
+  <div className="space-y-3">
+    <div className="flex items-center justify-center gap-2">
+      <Mail className="w-4 h-4 text-blue-600" />
+      <a
+        href={`mailto:${member.email}`}
+        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+      >
+        {member.email}
+      </a>
+    </div>
+    <div className="flex items-center justify-center gap-2">
+      <Linkedin className="w-4 h-4 text-blue-600" />
+      <a
+        href="https://www.linkedin.com/in/mukul-mukul-19a426362/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+      >
+        Mukul Mukul
+      </a>
+    </div>
+    <div className="flex items-center justify-center gap-2">
+      <Github className="w-4 h-4 text-blue-600" />
+      <a
+        href="https://github.com/Mukul289303"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+      >
+        Mukul289303
       </a>
     </div>
     <div className="flex items-center justify-center gap-2">
