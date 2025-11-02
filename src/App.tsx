@@ -5,7 +5,6 @@ function App() {
   const teamMembers = [
     {
       name: "Shiny Dhingra",
-      role: "CEO",
       email: "dhingrashiny01@gmail.com",
       linkedin: "linkedin.com/in/shiny-dhingra-62097b324",
       location: "Rohtak , India",
@@ -14,7 +13,6 @@ function App() {
     },
     {
       name: "Nevid Alam",
-      role: "Technical Expert",
       email: "mdnabid786@gmail.com",
       linkedin: "linkedin.com/in/nevid-alam-293b04328",
       location: "Panipat , India",
@@ -22,7 +20,6 @@ function App() {
     },
     {
      name: "Mohammad Zaid Ansari",
-      role: "Event Manager and Editor",
       email: "zaidansariacces@gmail.com",
       linkedin: "https://linkedin.com/in/mohammad-zaid-ansari-75b30737b",
       location: "Delhi, India",
@@ -31,7 +28,6 @@ function App() {
     },
     {
       name: "Sumaira",
-      role: "HR",
       email: "sumairasumaira@gmail.com",
       linkedin: "linkedin.com/in/sumaira-5783ab372",
       location: "Delhi , India",
@@ -39,7 +35,6 @@ function App() {
     },
     {
       name: "Anuj Saini",
-      role: "Resources Manager",
       email: "anujsaini00110@gmail.com",
       linkedin: "https://www.linkedin.com/in/anuj-saini-46516b317/",
       location: "Panipat , India",
@@ -47,7 +42,6 @@ function App() {
     },
      {
       name: "Utsav Kumar",
-      role: "Quality Manager",
       email: "utsavmuz1212@gmail.com",
       linkedin: "linkedin.com/in/utsav-kumar-6a2129336",
       location: "Chhpra , Bihar",
@@ -55,7 +49,6 @@ function App() {
     },
     {
       name: "Mukul",
-      role: "Student Coordinator",
       email: "mukulq4@gmail.com",
       Linkedin:"https://www.linkedin.com/in/mukul-mukul-19a426362",
       location: "Panipat , India",
@@ -120,7 +113,7 @@ function App() {
                 </div>
                 <div>
                   <p className="text-sm text-blue-100">Phone</p>
-                  <p className="font-medium">+91 93XXXXXXXX</p>
+                  <p className="font-medium">+91 9334092310</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
