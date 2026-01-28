@@ -19,11 +19,11 @@ function App() {
       image: "https://i.postimg.cc/qvX7ckD3/Screenshot-2025-10-17-125456.png"
     },
     {
-     name: "Mohammad Zaid Ansari",
-      email: "zaidansariacces@gmail.com",
-      linkedin: "https://linkedin.com/in/mohammad-zaid-ansari-75b30737b",
-      location: "Delhi, India",
-      image: "https://i.postimg.cc/CzVbWWmX/3cd51a63.jpg"
+     name: "Sahil",
+      email: "ssahilji270@gmail.com",
+      linkedin: "https://www.linkedin.com/in/sahil-mittan-13ba49394/",
+      location: "Panipat, India",
+      image: "https://i.postimg.cc/3NnFVpBN/Whats-App-Image-2026-01-28-at-3-19-15-PM.jpg"
 
     },
     {
@@ -41,11 +41,11 @@ function App() {
       image: "https://i.postimg.cc/fynqN4kv/dksjfkj.png"
     },
      {
-      name: "Utsav Kumar",
-      email: "utsavmuz1212@gmail.com",
-      linkedin: "linkedin.com/in/utsav-kumar-6a2129336",
-      location: "Chhpra , Bihar",
-      image: "https://i.postimg.cc/ZCF4ss8j/dab94179.jpg"
+      name: "Deepanshu Saini",
+      email: "rrdeepanshu98@gmail.com",
+      linkedin: "https://www.linkedin.com/in/deepanshu-pawar-55056238b/",
+      location: "Rohtak, India",
+      image: "https://i.postimg.cc/Jn83hKYr/Whats-App-Image-2026-01-28-at-3-19-30-PM.jpg"
     },
     {
       name: "Mukul",
@@ -298,8 +298,8 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
                 {/* Display role for all team members */}
                 <p className="text-lg text-blue-600 font-medium mb-4">{member.role}</p>
                 
-       {/* Contact details for Mohd Zaid Ansari*/}
-{member.name === "Mohammad Zaid Ansari" && (
+       {/* Contact details for Sahil*/}
+{member.name === "Sahil" && (
   <div className="space-y-3">
     <div className="flex items-center justify-center gap-2">
       <Mail className="w-4 h-4 text-blue-600" />
@@ -318,18 +318,18 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
         rel="noopener noreferrer"
         className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
       >
-        Mohammad Zaid Ansari
+        Sahil Mittan
       </a>
     </div>
     <div className="flex items-center justify-center gap-2">
       <Github className="w-4 h-4 text-blue-600" />
       <a
-        href="https://github.com/muhammadzaidansari313"
+        href="https://github.com/sahil-mittan"
         target="_blank"
         rel="noopener noreferrer"
         className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
       >
-        muhammadzaidansari313
+        sahil
       </a>
     </div>
     <div className="flex items-center justify-center gap-2">
@@ -466,7 +466,7 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
 )}
 
                {/* Contact details for Utsav Kumar */}
-{member.name === "Utsav Kumar" && (
+{member.name === "Deepanshu Saini" && (
   <div className="space-y-3">
     <div className="flex items-center justify-center gap-2">
       <Mail className="w-4 h-4 text-blue-600" />
@@ -485,18 +485,18 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
         rel="noopener noreferrer"
         className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
       >
-        Utsav Kumar
+        Deepanshu Pawar
       </a>
     </div>
     <div className="flex items-center justify-center gap-2">
       <Github className="w-4 h-4 text-blue-600" />
       <a
-        href="https://github.com/utsavkr12"
+        href="https://github.com/rrdeepanshu09-ship-it"
         target="_blank"
         rel="noopener noreferrer"
         className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
       >
-       utsavkr12
+       rrdeepanshu09-ship-it
       </a>
     </div>
     <div className="flex items-center justify-center gap-2">
