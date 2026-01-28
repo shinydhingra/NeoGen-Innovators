@@ -43,7 +43,7 @@ function App() {
      {
       name: "Deepanshu Saini",
       email: "rrdeepanshu98@gmail.com",
-      linkedin: "https://www.linkedin.com/in/deepanshu-pawar-55056238b/",
+      linkedin: "https://www.linkedin.com/in/deepanshu-pawar-55056238b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       location: "Rohtak, India",
       image: "https://i.postimg.cc/Jn83hKYr/Whats-App-Image-2026-01-28-at-3-19-30-PM.jpg"
     },
