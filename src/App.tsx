@@ -480,7 +480,7 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
     <div className="flex items-center justify-center gap-2">
       <Linkedin className="w-4 h-4 text-blue-600" />
       <a
-        href="https://www.linkedin.com/in/utsav-kumar-6a2129336"
+        href="https://www.linkedin.com/in/deepanshu-pawar-55056238b/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
