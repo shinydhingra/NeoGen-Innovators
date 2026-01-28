@@ -86,7 +86,7 @@ function App() {
             {/* Logo and Company Name */}
             <div className="flex items-center gap-4 text-white">
               <img 
-                src="https://i.postimg.cc/8Jch7G7S/da8cadf8.jpg" 
+                src="https://i.postimg.cc/85sHXNXc/Whats-App-Image-2026-01-28-at-10-45-19-PM.jpg" 
                 alt="NeoGen Innovators Logo"
                 className="w-24 h-24 object-contain rounded-full"
               />
@@ -161,7 +161,21 @@ function App() {
             </div>
           </div>
           
-{/* Team Group Photo */} <div className="flex justify-center"> <div className="relative group"> <div className="w-80 h-60 lg:w-96 lg:h-72 rounded-2xl overflow-hidden border-4 border-white shadow-2xl group-hover:scale-105 transition-transform duration-300"> <img src="https://i.postimg.cc/wB1PjWNR/Whats-App-Image-2025-08-23-at-8-40-31-PM.jpg" alt="NeoGen Innovators Team" className="w-full h-full object-cover" /> </div> <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl opacity-20 group-hover:opacity-30 transition duration-300 "></div>  </div> </div> </div> </header>
+          {/* Team Group Photo */}
+          <div className="flex justify-center">
+            <div className="relative group">
+              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl group-hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="https://i.postimg.cc/x8c4mKVP/Whats-App-Image-2026-01-28-at-8-53-04-PM.jpg" 
+                  alt="NeoGen Innovators Team" 
+                  className="w-full h-full object-cover" 
+                />
+              </div>
+              <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full opacity-20 group-hover:opacity-30 transition duration-300"></div>
+            </div>
+          </div>
+        </div>
+      </header>
 
       {/* About Section */}
       <section className="max-w-7xl mx-auto px-6 py-20">
@@ -187,7 +201,7 @@ As mentors and trainers, we also guide students and professionals in exploring I
               <div className="relative group mb-8">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-6 border-white shadow-2xl group-hover:scale-105 transition-transform duration-300">
                   <img 
-                    src="https://i.postimg.cc/5jJcjt0t/95e8a0cc.jpg" 
+                    src="https://i.postimg.cc/x8c4mKVP/Whats-App-Image-2026-01-28-at-8-53-04-PM.jpg" 
                     alt="Er Raushan Kumar"
                     className="w-full h-full object-cover"
                   />
@@ -599,7 +613,7 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-4">
               <img 
-                src="https://i.postimg.cc/8Jch7G7S/da8cadf8.jpg" 
+                src="https://i.postimg.cc/85sHXNXc/Whats-App-Image-2026-01-28-at-10-45-19-PM.jpg" 
                 alt="NeoGen Innovators Logo"
                 className="w-20 h-20 object-contain rounded-full"
               />
@@ -621,4 +635,3 @@ My focus as a mentor is to inspire, support, and empower learners so they can th
 }
 
 export default App;
-
