@@ -166,7 +166,7 @@ function App() {
             <div className="relative group">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl group-hover:scale-105 transition-transform duration-300">
                 <img 
-                  src="https://i.postimg.cc/x8c4mKVP/Whats-App-Image-2026-01-28-at-8-53-04-PM.jpg" 
+                  src="https://i.postimg.cc/s23vZhJw/Whats-App-Image-2026-01-28-at-8-53-04-PM.jpg" 
                   alt="NeoGen Innovators Team" 
                   className="w-full h-full object-cover" 
                 />
@@ -201,7 +201,7 @@ As mentors and trainers, we also guide students and professionals in exploring I
               <div className="relative group mb-8">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-6 border-white shadow-2xl group-hover:scale-105 transition-transform duration-300">
                   <img 
-                    src="https://i.postimg.cc/x8c4mKVP/Whats-App-Image-2026-01-28-at-8-53-04-PM.jpg" 
+                    src="https://i.postimg.cc/s23vZhJw/Whats-App-Image-2026-01-28-at-8-53-04-PM.jpg" 
                     alt="Er Raushan Kumar"
                     className="w-full h-full object-cover"
                   />
