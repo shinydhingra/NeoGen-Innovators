@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neogen Innovators</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  
+<div id="loader">
+  <div class="loader-content">
+    <div class="loader-logo-container">
+      <img src="assets/robot.png" class="loader-logo" alt="Team Logo"/>
+    </div>
+    <div class="boot-details">
+      <canvas id="robotCanvas"></canvas>
+      <h2 class="loading-text">INITIALIZING NEOGEN SYSTEM<span class="dots">...</span></h2>
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+    </div>
+  </div>
+</div>
+  
+<div id="main">
+  
+  <nav class="top-nav">
+    <div class="nav-brand">
+      <img src="assets/logo (2).png" class="logo" alt="Neogen Innovators"/>
+    </div>
+    <ul class="nav-links orbitron">
+      <li><a href="#" class="nav-item">HOME</a></li>
+      <li><a href="#founder" class="nav-item">FOUNDER</a></li>
+      <li><a href="#co-founder" class="nav-item">CO-FOUNDER</a></li>
+      <li><a href="#architects" class="nav-item">CORE TEAM</a></li>
+      <li><a href="#inner-orbit" class="nav-item">EXTENDED TEAM</a></li>
+      <li><a href="#achievements" class="nav-item">ACHIEVEMENTS</a></li>
+      <li><a href="#projects" class="nav-item">PROJECTS</a></li>
+      <li><a href="#closing" class="nav-item">CONTACT US</a></li>
+    </ul>
+  </nav>
+  
+  <section class="hero">
+    <div class="hero-text">
+      <h1>NEOGEN INNOVATORS</h1>
+      <p>Engineering Intelligent Futures with AI, IoT & Autonomous Systems</p>
+    </div>
+    <canvas id="bgCanvas"></canvas>
+    <div class="floating-icons">
+      <div class="icon">⚡</div>
+      <div class="icon">📡</div>
+      <div class="icon">🧠</div>
+      <div class="icon">🔌</div>
+      <div class="icon">📶</div>
+    </div>
+  </section>
+
+  <div id="cursor-glow"></div>
+
+  <div class="scroll-cue">
+    <div class="scroll-text">SCROLL</div>
+    <div class="scroll-line"></div>
+  </div>
+
+  <div class="content-container">
+
+    <section class="profile-section" id="founder">
+      <h2 class="section-glitch-text orbitron">FOUNDER</h2>
+      <div class="glass-card profile-card">
+        <div class="profile-img">
+          <img src="assets/founder.png" alt="Er. Raushan Kumar"/>
+        </div>
+        <h3 class="orbitron">Er. Raushan Kumar</h3>
+        <h5>Founder</h5>
+        <p>Building tomorrow's technology, today</p>
+      </div>
+    </section>
+
+    <section class="profile-section" id="co-founder">
+      <h2 class="section-glitch-text orbitron">CO-FOUNDER</h2>
+      <div class="glass-card profile-card">
+        <div class="profile-img">
+          <img src="assets/co-founder.jpeg" alt="Mr. Karan Singh"/>
+        </div>
+        <h3 class="orbitron">Er. Karan Singh</h3>
+        <h5>Co-Founder</h5>
+        <p>Fueling ideas with strategy and smart solutions</p>
+      </div>
+    </section>
+
+    <section class="team-section" id="architects">
+      <h2 class="section-glitch-text team-title-static orbitron">THE CORE TEAM</h2>
+      
+      <div class="swiper teamSwiper">
+        <div class="swiper-wrapper">
+          
+          <!-- Sumaira -->
+          <div class="swiper-slide">
+            <div class="team-card glass-card">
+              <div class="profile-img small">
+                <img src="assets/sumaira.jpeg" alt="Sumaira"/>
+              </div>
+              <h4 class="orbitron">Sumaira</h4>
+              <h5>B.Tech AI and ML</h5>
+              <div class="social-links">
+                <a href="https://github.com/sumairasumaira648-svg" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:sumairasumaira648@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/sumaira-8457733b2/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shiny Dhingra -->
+          <div class="swiper-slide">
+            <div class="team-card glass-card">
+              <div class="profile-img small">
+                <img src="assets/shiny.jpeg" alt="Shiny Dhingra"/>
+              </div>
+              <h4 class="orbitron">Shiny Dhingra</h4>
+              <h5>B.Tech CSE</h5>
+              <div class="social-links">
+                <a href="https://github.com/shinydhingra" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:dhingrashiny01@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/shiny-dhingra-62097b324/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mukul -->
+          <div class="swiper-slide">
+            <div class="team-card glass-card">
+              <div class="profile-img small">
+                <img src="assets/mukul.jpeg" alt="Mukul"/>
+              </div>
+              <h4 class="orbitron">Mukul</h4>
+              <h5>B.Tech AI and DS</h5>
+              <div class="social-links">
+                <a href="https://github.com/Mukul289303" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:mukulq4@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/mukul-mukul-19a426362/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deepanshu -->
+          <div class="swiper-slide">
+            <div class="team-card glass-card">
+              <div class="profile-img small">
+                <img src="assets/deepanshu (2).jpeg" alt="Deepanshu"/>
+              </div>
+              <h4 class="orbitron">Deepanshu</h4>
+              <h5>B.Tech AI and DS</h5>
+              <div class="social-links">
+                <a href="https://github.com/rrdeepanshu09-ship-it" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:rrdeepanshu98@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/deepanshu-pawar-55056238b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sahil -->
+          <div class="swiper-slide">
+            <div class="team-card glass-card">
+              <div class="profile-img small">
+                <img src="assets/sahil.jpeg" alt="Sahil"/>
+              </div>
+              <h4 class="orbitron">Sahil</h4>
+              <h5>B.Tech CSE</h5>
+              <div class="social-links">
+                <a href="https://github.com/sahil-mittan" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:ssahilji270@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/sahil-13ba49394/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nevid -->
+          <div class="swiper-slide">
+            <div class="team-card glass-card">
+              <div class="profile-img small">
+                <img src="assets/nevid.jpeg" alt="Nevid"/>
+              </div>
+              <h4 class="orbitron">Nevid</h4>
+              <h5>B.Tech AI and ML</h5>
+              <div class="social-links">
+                <a href="https://github.com/Nevid-786" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:mdnabid786@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/nevid-alam-293b04328/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Anuj -->
+          <div class="swiper-slide">
+            <div class="team-card glass-card">
+              <div class="profile-img small">
+                <img src="assets/anuj.jpeg" alt="Anuj"/>
+              </div>
+              <h4 class="orbitron">Anuj</h4>
+              <h5>B.Tech ECE</h5>
+              <div class="social-links">
+                <a href="https://github.com/sainiking-sa" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:anujsaini00110@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/anuj-saini-46516b317/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+      </div>
+    </section>
+
+    <!-- EXTENDED TEAM -->
+    <section id="inner-orbit" class="team-section inner-orbit-section">
+      <h2 class="section-glitch-text orbitron team-title-static">THE INNER ORBIT</h2>
+      <p class="inner-orbit-subtitle">Extended Team</p>
+
+      <div class="orbit-grid">
+
+        <!-- Member 1 -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front glass-card">
+              <div class="profile-img small">
+                <img src="assets/yuvika.jpeg" alt="Yuvika">
+              </div>
+              <h4>Yuvika</h4>
+            </div>
+            <div class="flip-card-back glass-card">
+              <div class="flip-social-links">
+                <a href="https://github.com/yuvikaraheja3-code" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yuvika-raheja-503749421/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:yuvikaraheja3@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front glass-card">
+              <div class="profile-img small">
+                <img src="assets/ruhani.jpeg" alt="Ruhani">
+              </div>
+              <h4>Ruhani</h4>
+            </div>
+            <div class="flip-card-back glass-card">
+              <div class="flip-social-links">
+                <a href="https://github.com/ruhani-thakral" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ruhani-thakral/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:itsme.ruhanithakral@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front glass-card">
+              <div class="profile-img small">
+                <img src="assets/mohit.jpeg" alt="Mohit">
+              </div>
+              <h4>Mohit</h4>
+            </div>
+            <div class="flip-card-back glass-card">
+              <div class="flip-social-links">
+                <a href="https://github.com/mohithackz" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohit-yadav-infosec/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:yadavmohitsm01@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front glass-card">
+              <div class="profile-img small">
+                <img src="assets/suryansh.jpeg" alt="Suryansh">
+              </div>
+              <h4>Suryansh</h4>
+            </div>
+            <div class="flip-card-back glass-card">
+              <div class="flip-social-links">
+                <a href="https://github.com/suryanshpanwar4816" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/suryansh-panwar-795429389/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:suryanshpanwar4816@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 5 -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front glass-card">
+              <div class="profile-img small">
+                <img src="assets/harsh.jpeg" alt="Harsh">
+              </div>
+              <h4>Harsh</h4>
+            </div>
+            <div class="flip-card-back glass-card">
+              <div class="flip-social-links">
+                <a href="https://github.com/HARSH-REDHU" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/harsh-singh-redhu-358b06376/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:harshsingh96228@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 6 -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front glass-card">
+              <div class="profile-img small">
+                <img src="assets/tiksha.jpeg" alt="Tiksha">
+              </div>
+              <h4>Tiksha</h4>
+            </div>
+            <div class="flip-card-back glass-card">
+              <div class="flip-social-links">
+                <a href="https://github.com/tikshaarora563" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tikshaarora16/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:tikshaarora563@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 7 -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front glass-card">
+              <div class="profile-img small">
+                <img src="assets/sawan.jpeg" alt="Sawan">
+              </div>
+              <h4>Sawan</h4>
+            </div>
+            <div class="flip-card-back glass-card">
+              <div class="flip-social-links">
+                <a href="https://github.com/calcyoulater" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sawan-kumar-janjhotr-a390b937a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:sawankumarjanjhotr@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="achievements-section" id="achievements">
+      <h2 class="section-glitch-text orbitron">ACHIEVEMENTS</h2>
+
+      <div class="achv-guide">
+        <div class="achv-bot">
+          <img src="assets/robot.png" alt="Neogen Guide Bot" class="achv-bot-img"/>
+        </div>
+        <div class="achv-bubble glass-card">
+          <p class="achv-bubble-text">Which achievement would you like to explore?</p>
+          <div class="achv-options">
+            <button class="achv-btn" data-target="achv-dtu-1">BrainWave 2.O</button>
+            <button class="achv-btn" data-target="achv-dtu-2">INNOVAULT</button>
+            <button class="achv-btn" data-target="achv-thapar">HackTU 7.O</button>
+            <button class="achv-btn" data-target="achv-hackathon">Hackathon Highlights</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="achv-grid">
+
+        <div class="achv-card glass-card" id="achv-dtu-1">
+          <div class="achv-img">
+            <img src="assets/achievement-dtu1.jpeg" alt="DTU Achievement"/>
+          </div>
+          <div class="achv-info">
+            <span class="achv-tag">DTU</span>
+            <h4 class="orbitron">BrainWave 2.O</h4>
+            <p class="achv-org">Delhi Technological University</p>
+            <p class="achv-rank">Position — Finalist</p>
+            <p class="achv-desc">Recognized for an innovative project presented at a technical event hosted by DTU, showcasing the team's applied engineering work.</p>
+          </div>
+        </div>
+
+        <div class="achv-card glass-card" id="achv-dtu-2">
+          <div class="achv-img">
+            <img src="assets/achievement-dtu2.jpeg" alt="DTU Achievement 2"/>
+          </div>
+          <div class="achv-info">
+            <span class="achv-tag">DTU</span>
+            <h4 class="orbitron">INNOVAULT</h4>
+            <p class="achv-org">Delhi Technological University</p>
+            <p class="achv-rank">Position — Top Performer</p>
+            <p class="achv-desc">A second milestone at DTU, reflecting consistent performance and growing recognition across technical circles.</p>
+          </div>
+        </div>
+
+        <div class="achv-card glass-card" id="achv-thapar">
+          <div class="achv-img">
+            <img src="assets/achievement-thapar.jpeg" alt="Thapar Achievement"/>
+          </div>
+          <div class="achv-info">
+            <span class="achv-tag">THAPAR</span>
+            <h4 class="orbitron">HackTU 7.O</h4>
+            <p class="achv-org">Thapar Institute of Engineering & Technology</p>
+            <p class="achv-rank">Position — Winner</p>
+            <p class="achv-desc">Secured top honours at a competitive event hosted by Thapar Institute, marking a key highlight in the team's journey.</p>
+          </div>
+        </div>
+
+        <div class="achv-card glass-card" id="achv-hackathon">
+          <div class="achv-img">
+            <img src="assets/achievement-hackathon.jpeg" alt="Hackathon Highlights"/>
+            <div class="hackathon-swiper swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/hack1.jpeg" alt="Hackathon Image 1"></div>
+                <div class="swiper-slide"><img src="assets/hack2.jpeg" alt="Hackathon Image 2"></div>
+                <div class="swiper-slide"><img src="assets/hack3.jpeg" alt="Hackathon Image 3"></div>
+                <div class="swiper-slide"><img src="assets/hack4.jpeg" alt="Hackathon Image 4"></div>
+              </div>
+              <div class="hackathon-next"></div>
+              <div class="hackathon-prev"></div>
+            </div>
+          </div>
+          <div class="achv-info">
+            <span class="achv-tag">HACKATHON</span>
+            <h4 class="orbitron">Hackathon Highlights</h4>
+            <p class="achv-org">Multiple Hackathons</p>
+            <p class="achv-rank">Position — Top 5 Finishes</p>
+            <p class="achv-desc">Multiple Top 5 finishes across hackathons, demonstrating the team's range in rapid prototyping and problem-solving under pressure.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects-section" id="projects">
+      <h2 class="section-glitch-text projects-title-static orbitron">PROJECTS</h2>
+      <p class="projects-subtitle">Explore the innovative solutions built by NeoGen Innovators.</p>
+
+      <div class="projects-grid">
+
+        <a class="project-folder" href="https://github.com/NeogenInnovators/Off-grid-Tracker" target="_blank" rel="noopener noreferrer" aria-label="NexTrack – Smart Safety Vehicle, view on GitHub">
+          <svg class="folder-svg" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="folder-back" d="M14 36 C14 28 20 22 28 22 L80 22 C86 22 91 25 94 30 L104 44 L192 44 C200 44 206 50 206 58 L206 134 C206 142 200 148 192 148 L28 148 C20 148 14 142 14 134 Z"/>
+            <path class="folder-page" d="M38 38 L168 38 C174 38 178 43 177 49 L170 130 C169 137 163 142 156 142 L50 142 C43 142 37 137 36 130 L30 49 C29 43 33 38 38 38 Z"/>
+            <path class="folder-front" d="M22 58 C22 52 27 47 33 47 L165 47 C173 47 180 52 182 60 L196 124 C198 133 191 142 182 142 L34 142 C26 142 19 136 17 128 L8 76 C6 67 13 58 22 58 Z"/>
+          </svg>
+          <div class="folder-label">
+            <i class="fab fa-github folder-repo-icon"></i>
+            <h4 class="orbitron">NexTrack – Smart Trekking System</h4>
+            <p class="folder-desc">AI-powered safety monitoring system</p>
+          </div>
+        </a>
+
+        <a class="project-folder" href="https://github.com/NeogenInnovators/mine-sentinel" target="_blank" rel="noopener noreferrer" aria-label="Mine Sentinel, view on GitHub">
+          <svg class="folder-svg" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="folder-back" d="M14 36 C14 28 20 22 28 22 L80 22 C86 22 91 25 94 30 L104 44 L192 44 C200 44 206 50 206 58 L206 134 C206 142 200 148 192 148 L28 148 C20 148 14 142 14 134 Z"/>
+            <path class="folder-page" d="M38 38 L168 38 C174 38 178 43 177 49 L170 130 C169 137 163 142 156 142 L50 142 C43 142 37 137 36 130 L30 49 C29 43 33 38 38 38 Z"/>
+            <path class="folder-front" d="M22 58 C22 52 27 47 33 47 L165 47 C173 47 180 52 182 60 L196 124 C198 133 191 142 182 142 L34 142 C26 142 19 136 17 128 L8 76 C6 67 13 58 22 58 Z"/>
+          </svg>
+          <div class="folder-label">
+            <i class="fab fa-github folder-repo-icon"></i>
+            <h4 class="orbitron">Mine Sentinel</h4>
+            <p class="folder-desc">Intelligent mine safety and hazard detection</p>
+          </div>
+        </a>
+
+        <a class="project-folder" href="https://github.com/NeogenInnovators/FireLink-X" target="_blank" rel="noopener noreferrer" aria-label="Autonomous Surveillance Drone, view on GitHub">
+          <svg class="folder-svg" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="folder-back" d="M14 36 C14 28 20 22 28 22 L80 22 C86 22 91 25 94 30 L104 44 L192 44 C200 44 206 50 206 58 L206 134 C206 142 200 148 192 148 L28 148 C20 148 14 142 14 134 Z"/>
+            <path class="folder-page" d="M38 38 L168 38 C174 38 178 43 177 49 L170 130 C169 137 163 142 156 142 L50 142 C43 142 37 137 36 130 L30 49 C29 43 33 38 38 38 Z"/>
+            <path class="folder-front" d="M22 58 C22 52 27 47 33 47 L165 47 C173 47 180 52 182 60 L196 124 C198 133 191 142 182 142 L34 142 C26 142 19 136 17 128 L8 76 C6 67 13 58 22 58 Z"/>
+          </svg>
+          <div class="folder-label">
+            <i class="fab fa-github folder-repo-icon"></i>
+            <h4 class="orbitron">FireLink - X</h4>
+            <p class="folder-desc">A Smart Fire Detection System</p>
+          </div>
+        </a>
+
+        <a class="project-folder" href="https://github.com/NeogenInnovators/LiFi-Communication-System" target="_blank" rel="noopener noreferrer" aria-label="AI Healthcare Assistant, view on GitHub">
+          <svg class="folder-svg" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="folder-back" d="M14 36 C14 28 20 22 28 22 L80 22 C86 22 91 25 94 30 L104 44 L192 44 C200 44 206 50 206 58 L206 134 C206 142 200 148 192 148 L28 148 C20 148 14 142 14 134 Z"/>
+            <path class="folder-page" d="M38 38 L168 38 C174 38 178 43 177 49 L170 130 C169 137 163 142 156 142 L50 142 C43 142 37 137 36 130 L30 49 C29 43 33 38 38 38 Z"/>
+            <path class="folder-front" d="M22 58 C22 52 27 47 33 47 L165 47 C173 47 180 52 182 60 L196 124 C198 133 191 142 182 142 L34 142 C26 142 19 136 17 128 L8 76 C6 67 13 58 22 58 Z"/>
+          </svg>
+          <div class="folder-label">
+            <i class="fab fa-github folder-repo-icon"></i>
+            <h4 class="orbitron">LiFi-Communication-System</h4>
+            <p class="folder-desc">A LiFi Wireless Communication System</p>
+          </div>
+        </a>
+
+        <a class="project-folder" href="https://github.com/NeogenInnovators/RFID-Based-Attendance-System" target="_blank" rel="noopener noreferrer" aria-label="Smart Campus Navigator, view on GitHub">
+          <svg class="folder-svg" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="folder-back" d="M14 36 C14 28 20 22 28 22 L80 22 C86 22 91 25 94 30 L104 44 L192 44 C200 44 206 50 206 58 L206 134 C206 142 200 148 192 148 L28 148 C20 148 14 142 14 134 Z"/>
+            <path class="folder-page" d="M38 38 L168 38 C174 38 178 43 177 49 L170 130 C169 137 163 142 156 142 L50 142 C43 142 37 137 36 130 L30 49 C29 43 33 38 38 38 Z"/>
+            <path class="folder-front" d="M22 58 C22 52 27 47 33 47 L165 47 C173 47 180 52 182 60 L196 124 C198 133 191 142 182 142 L34 142 C26 142 19 136 17 128 L8 76 C6 67 13 58 22 58 Z"/>
+          </svg>
+          <div class="folder-label">
+            <i class="fab fa-github folder-repo-icon"></i>
+            <h4 class="orbitron">RFID Based Attendance System</h4>
+            <p class="folder-desc">An IoT Based Smart Attendance System</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="closing-section" id="closing">
+      <div class="thankyou-block">
+        <h2 class="thankyou-heading orbitron">You didn't just visit.... you experienced NeoGen.</h2>
+        <p class="thankyou-subtitle">The future is being built here. Stay Connected.</p>
+      </div>
+
+      <footer class="ng-footer">
+        <div class="footer-contact">
+          <a class="footer-contact-item" href="mailto:contact@neogeninnovators.com">
+            <i class="fas fa-envelope"></i>
+            <span>contact@neogeninnovators.com</span>
+          </a>
+          <a class="footer-contact-item" href="tel:+919334092310">
+            <i class="fas fa-phone"></i>
+            <span>+91 9334092310</span>
+          </a>
+          <span class="footer-contact-item footer-contact-static">
+            <i class="fas fa-location-dot"></i>
+            <span>Samalkha, India</span>
+          </span>
+          <a class="footer-contact-item" href="#" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-globe"></i>
+            <span>www.neogeninnovators.com</span>
+          </a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/neogen-innovators-03bb8537b/" target="_blank" rel="noopener noreferrer" aria-label="NeoGen Innovators on LinkedIn" class="footer-social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/NeogenInnovators" target="_blank" rel="noopener noreferrer" aria-label="NeoGen Innovators on GitHub" class="footer-social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/neogen.innovators/" target="_blank" rel="noopener noreferrer" aria-label="NeoGen Innovators on Instagram" class="footer-social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">© 2025 NeoGen Innovators. All Rights Reserved.</p>
+          <p class="footer-credit">Designed and Developed by NeoGen Innovators.</p>
+        </div>
+      </footer>
+    </section>
+
+  </div>
+</div>
+  
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
